@@ -4,8 +4,8 @@ data "google_compute_image" "ubuntu" {
   family      = "ubuntu-2204-lts"
 }
 
-resource "google_compute_instance" "web" {
-  name         = "web"
+resource "google_compute_instance" "web_alun" {
+  name         = "web_alun"
   machine_type = "e2-micro"
 
   
