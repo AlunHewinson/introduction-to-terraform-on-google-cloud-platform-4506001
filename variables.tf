@@ -1,5 +1,6 @@
 variable "project_id" {
     type = string
+    default = "terraform-424814"
 }
 
 variable "region" {
@@ -9,8 +10,10 @@ variable "region" {
 
 variable "network_name" {
     type = string
+    default = "app"
 }
 
 variable "app_name" {
     type = string
+    default = "blog"
 }
